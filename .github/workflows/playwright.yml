@@ -13,11 +13,11 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: lts/*
-    - name: Install dependencies
+    - name: Install 23f3000487@ds.study.iitm.ac.in dependencies
       run: npm install
-    - name: Install Playwright Browsers
+    - name: Install Playwright Browsers 23f3000487@ds.study.iitm.ac.in
       run: npx playwright install --with-deps
-    - name: Run Playwright tests
+    - name: Run Playwright tests ✅ 23f3000487@ds.study.iitm.ac.in
       run: npx playwright test
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
