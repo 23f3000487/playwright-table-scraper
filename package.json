@@ -1,0 +1,11 @@
+{
+  "name": "playwright-table-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for dynamic tables using Playwright",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0"
+  }
+}
