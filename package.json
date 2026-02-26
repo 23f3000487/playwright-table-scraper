@@ -2,10 +2,24 @@
   "name": "playwright-table-scraper",
   "version": "1.0.0",
   "description": "Scraper for dynamic tables using Playwright",
+  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "npx playwright test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/23f3000487/playwright-table-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/23f3000487/playwright-table-scraper/issues"
+  },
+  "homepage": "https://github.com/23f3000487/playwright-table-scraper#readme",
   "devDependencies": {
-    "@playwright/test": "^1.42.0"
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.1"
   }
 }
